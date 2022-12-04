@@ -4,8 +4,11 @@ metadata:
   name: alpine-pod
 spec:
   containers:
-    -name: commndtest
-     image: alpine
-    command:
-      - sleep
-      - "1d"
+    - image: alpine
+      command:
+        - sleep
+      args:
+        - 1d
+      env:
+        - name: test
+        - name: hello
