@@ -4,7 +4,7 @@ metadata:
   name: alpine-pod
 spec:
   containers:
-    -name: alpine-pod
+    -name: commndtest
      image: alpine
     command:
       - sleep
